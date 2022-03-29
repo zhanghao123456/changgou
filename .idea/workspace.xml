@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31f598be-6ef0-47c7-b9ec-5b1f43b7aed0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="31f598be-6ef0-47c7-b9ec-5b1f43b7aed0" name="Changes" comment="代码自动生成">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-service-goods-api/src/main/java/com.changgou.goods.pojo/Brand.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-service-goods-api/src/main/java/com.changgou.goods.pojo/Brand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-file/src/main/java/com/changgou/controller/FileUploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-file/src/main/java/com/changgou/controller/FileUploadController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-file/src/main/java/com/changgou/util/FastDFSUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-file/src/main/java/com/changgou/util/FastDFSUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/controller/BrandController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/dao/BrandMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/service/BrandService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/service/impl/BrandServiceImpl.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +54,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/changgou-parent/changgou-eureka/src/main/resources/application.yml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -76,13 +68,13 @@
       <recent name="com.changgou.service" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Developer\changgou\changgou-parent\changgou-common\src\main\java\entity" />
       <recent name="D:\Developer\changgou\changgou-parent\changgou-service-api\changgou-service-goods-api\src\main\java\com.changgou.goods.pojo" />
       <recent name="D:\Developer\changgou\changgou-parent\changgou-service\changgou-service-goods\src\main\java\com\changgou" />
       <recent name="D:\Developer\changgou\changgou-parent\changgou-service" />
-      <recent name="D:\Developer\changgou\changgou-parent\changgou-common\src\main\java\entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FastDFSUtil">
+  <component name="RunManager" selected="Spring Boot.GoodsApplication">
     <configuration name="FastDFSUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.changgou.util.FastDFSUtil" />
       <module name="changgou-service-file" />
@@ -137,10 +129,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FastDFSUtil" />
-        <item itemvalue="Spring Boot.FileApplication" />
         <item itemvalue="Spring Boot.GoodsApplication" />
         <item itemvalue="Spring Boot.EurekaApplication" />
+        <item itemvalue="Application.FastDFSUtil" />
+        <item itemvalue="Spring Boot.FileApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -158,8 +150,16 @@
       <workItem from="1648436404158" duration="113000" />
       <workItem from="1648436530890" duration="488000" />
       <workItem from="1648437037545" duration="1734000" />
-      <workItem from="1648438820976" duration="34386000" />
+      <workItem from="1648438820976" duration="45790000" />
     </task>
+    <task id="LOCAL-00001" summary="代码自动生成">
+      <created>1648549801525</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1648549801525</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +175,24 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods" />
+    </ignored-roots>
+    <MESSAGE value="代码自动生成" />
+    <option name="LAST_COMMIT_MESSAGE" value="代码自动生成" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/controller/BrandController.java</url>
+          <line>107</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
