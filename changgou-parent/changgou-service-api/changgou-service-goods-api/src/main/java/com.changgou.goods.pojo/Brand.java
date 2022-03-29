@@ -20,7 +20,7 @@ public class Brand implements Serializable {
 	private String name;//品牌名称
 	private String image;//品牌图片地址
 	private String letter;//品牌的首字母
-//	private Integer seq;//排序
+	private Integer seq;//排序
 
 	
 	public Integer getId() {
@@ -51,12 +51,12 @@ public class Brand implements Serializable {
 		this.letter = letter;
 	}
 
-//	public Integer getSeq() {
-//		return seq;
-//	}
-//	public void setSeq(Integer seq) {
-//		this.seq = seq;
-//	}
+	public Integer getSeq() {
+		return seq;
+	}
+	public void setSeq(Integer seq) {
+		this.seq = seq;
+	}
 
 
 
