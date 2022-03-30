@@ -1,5 +1,6 @@
 package com.changgou.goods.service;
 
+import com.changgou.goods.pojo.Goods;
 import com.changgou.goods.pojo.Spu;
 import com.github.pagehelper.Page;
 
@@ -7,6 +8,33 @@ import java.util.List;
 import java.util.Map;
 
 public interface SpuService {
+
+    //商品审核并自动上架
+    void audit(String id);
+
+    //商品下架
+    void pull(String id);
+
+    //商品上架
+    void put(String id);
+
+    //还原商品
+    void restore(String id);
+
+    //物理删除商品
+    void realDel(String id);
+
+    /**
+     *根据id查询goods
+     * @return
+     */
+    Goods findGoodsById(String id);
+
+    /**
+     * 添加商品
+     * @param goods
+     */
+    void saveGoods(Goods goods);
 
     /***
      * 查询所有
