@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31f598be-6ef0-47c7-b9ec-5b1f43b7aed0" name="Changes" comment="代码自动生成">
+    <list default="true" id="31f598be-6ef0-47c7-b9ec-5b1f43b7aed0" name="Changes" comment="Spu增加功能，id查询，上下架，删除，审核">
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-service-search-api/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service-api/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/controller/SpuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/controller/SpuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/SpuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/SpuService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/impl/SpuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/impl/SpuServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +82,7 @@
       <recent name="D:\Developer\changgou\changgou-parent\changgou-service" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.GoodsApplication">
+  <component name="RunManager" selected="Spring Boot.FileApplication">
     <configuration name="FastDFSUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.changgou.util.FastDFSUtil" />
       <module name="changgou-service-file" />
@@ -135,10 +137,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.GoodsApplication" />
-        <item itemvalue="Spring Boot.EurekaApplication" />
-        <item itemvalue="Application.FastDFSUtil" />
         <item itemvalue="Spring Boot.FileApplication" />
+        <item itemvalue="Spring Boot.EurekaApplication" />
+        <item itemvalue="Spring Boot.GoodsApplication" />
+        <item itemvalue="Application.FastDFSUtil" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +158,13 @@
       <workItem from="1648436404158" duration="113000" />
       <workItem from="1648436530890" duration="488000" />
       <workItem from="1648437037545" duration="1734000" />
-      <workItem from="1648438820976" duration="53531000" />
+      <workItem from="1648438820976" duration="56029000" />
+      <workItem from="1648897774069" duration="13000" />
+      <workItem from="1649066471217" duration="56000" />
+      <workItem from="1649244705631" duration="699000" />
+      <workItem from="1649317936957" duration="834000" />
+      <workItem from="1649507061598" duration="248000" />
+      <workItem from="1650440322286" duration="1158000" />
     </task>
     <task id="LOCAL-00001" summary="代码自动生成">
       <created>1648549801525</created>
@@ -179,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648565862962</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Spu增加功能，id查询，上下架，删除，审核">
+      <created>1648640649891</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1648640649891</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,13 +210,15 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods" />
     </ignored-roots>
     <MESSAGE value="代码自动生成" />
-    <option name="LAST_COMMIT_MESSAGE" value="代码自动生成" />
+    <MESSAGE value="Spu增加功能，id查询，上下架，删除，审核" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spu增加功能，id查询，上下架，删除，审核" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
